@@ -1,0 +1,198 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16-may-2017, 0:31:39
+    Author     : Jordi Gutierrez
+*/
+
+
+body{
+    background-image: url("../img/fondo.jpg");
+}
+
+header{
+    height: 170px;
+    background-color: #e5cf54;
+    opacity: 0.7;
+}
+
+.div_logo{
+    height:100px;
+
+
+}
+
+.logo{
+    min-width: 60px;
+    max-width: 20px;
+    width: 50%;
+    height: auto;
+    margin-top: 10px;
+
+}
+
+.titol{
+    font-size: 6em;
+}
+header a:hover{
+    text-decoration : none;
+}
+
+a img:hover{
+    opacity: 0.5;
+    background-color: white;
+}
+.publicidadpeque{
+    display:none;
+}
+
+.div_publi{
+
+
+}
+
+.publicidadgran{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 900px;
+    width: 300px;
+}
+
+
+
+section{
+    opacity: 0.6;
+    background-color: white;
+    min-height: 900px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background-color: white;
+}
+section a:hover{
+    color:black;
+    background-color: blue;
+    opacity: 0.9;
+}
+
+article a{
+    color:black;
+}
+article a:hover{
+    text-decoration: none;
+}
+
+figcaption{
+    text-align:right;
+}
+
+p{
+    color:black;
+    font-size: 17px;
+}
+
+.imagen1{
+     
+
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding:2px;
+    border: black solid 6px;
+}
+
+cite a{
+    color:graytext;
+}
+cite a:hover{
+    color: white;
+}
+
+
+#seguir{
+    color:graytext;
+    float:right;
+}
+
+.segonas_noticias{
+    clear: both;
+}
+
+#article2{
+    clear:both;
+}
+
+.imagen2{
+    margin-bottom: 10px;
+    padding:2px;
+    border: black solid 6px;
+}
+.imagen3{
+    margin-bottom: 10px;
+    padding:2px;
+    border: black solid 6px;
+}
+
+
+footer{
+    border:black solid 1px;
+    background-color: #247aa8;
+    opacity: 0.5;
+    text-align: center;
+    margin-top: 10px;
+
+
+}
+
+footer p a{
+    color: beige;
+}
+
+footer p a:hover{
+    color:black;
+}
+
+#copy1{
+    float:left;
+    display:inline-block;
+    margin-left: 40px;
+}
+
+#copy{
+    text-align: right;
+    margin-right: 20px;
+}
+
+
+@media screen and (max-width: 764px){
+
+    .logo{
+        min-width: 60px;
+        height: auto;
+    }
+    .titol{
+        font-size: 45px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    section{
+        height: auto;
+    }
+    header{
+        height: 110px;  
+    }
+    .publicidadgran{
+        display: none;
+    }
+
+    .publicidadpeque{
+        margin-top: 20px;
+        display: inline-block;
+        max-height: 100px;
+        width: 100%;
+    }
+    p{
+        font-size: 15px;
+    }
+}

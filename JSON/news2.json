@@ -1,0 +1,20 @@
+{
+    "noticias3": [
+      {
+        "imagen": "../img/foto_noticia7.jpg",
+        "titulo": "Pide que le lleven una pizza después de que su tren se quedara parado en las vías",
+        "descripcion": "Un tren que cubría la ruta entre Boston y Washington se quedó parado en mitad del trayecto por razones que aún se desconocen. Como los pasajeros desconocían el tiempo que permanecerían allí, uno de los viajeros decidió pedir una pizza a 'domicilio' [...]"
+        
+      },
+      {
+        "imagen": "España",
+        "titulo": "Madrid es un municipio y una ciudad de España. La localidad, con categoría…",
+        "descripcion": "Murcia"
+      },
+      {
+       "imagen": "España",
+        "titulo": "Madrid es un municipio y una ciudad de España. La localidad, con categoría…",
+        "descripcion": "Murcia"
+      }
+    ]
+  }
